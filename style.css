@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.header-title{
+    font-size: 150px;
+    margin: auto;
+    width: fit-content;
+}
+.title-black{
+    color: black;
+    position: relative;
+    top: 150px;
+    right: 20px;
+    z-index: 3;
+}
+.title-red{
+    color: red;
+    opacity: 0.5;
+    position: relative;
+    z-index: 2;
+}
+.title-blue{
+    color: blue;
+    opacity: 0.5;
+    position: relative;
+    bottom: 150px;
+    left: 20px;
+}
+.header-btn{
+    background-color: black;
+    display: block;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    transition: 1s;
+}
+.header-btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.header-btn-blue{
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+    opacity: 0.5;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-40%,-40%);
+}
+.header-btn-red{
+    background-color: red;
+    width: 300px;
+    height: 50px;
+    opacity: 0.5;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-60%,-60%);
+}
+.go-up{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    position:fixed;
+    bottom: 40px;
+    right: 40px;
+}
+.container{
+    width: 1000px;
+    margin:auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.artical{
+    border: 2px solid black;
+    margin-top: 100px;
+}
+.artical-title{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.category{
+    background-color: tomato;
+    text-decoration: underline;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.artical-img{
+    width: 100%;
+    top: 0;
+    position: sticky;
+}
+.artical-text{
+    padding: 40px;
+    background-color: white;
+    position: relative;
+    z-index: 9;
+}
+
+
